@@ -1,0 +1,113 @@
+--- 
+title: The Structure of RNase HII
+mephisto_id: 9
+layout: post
+---
+When I started my graduate work at [TSRI][] in [John Tainer][jat]'s lab, one of the first
+projects I worked on involved determining the structure of an RNase HII
+(or Type II RNase H) enzyme.
+In general, a [ribonuclease][rnase] (abbreviated RNase) is an enzyme that degrades RNA.
+There are many different
+types or classes of RNase enzymes, and several of these enzymes are essential for life.
+RNase HII enzymes are not well-characterized,
+although RNase H (note the missing "II") has been studied extensively, mostly because
+HIV reverse trascriptase (a key enzyme involved in HIV viral replication) has an
+RNase H domain.
+
+[tsri]: http://www.scripps.edu
+[jat]: http://www.scripps.edu/~jat
+[rnase]: http://en.wikipedia.org/wiki/Ribonuclease
+
+RNase H enzymes only degrade ribonucleotides in a hybrid duplex consisting of RNA hybridized
+to complementary DNA. This RNA/DNA hybrid structure forms as an intermediate in
+some key biological processes.  For example, "standard" DNA replication in nearly all cellular
+organisms starts with a short piece RNA synthesized based on the DNA template. The RNA
+provides a starting point for enzymes that synthesize DNA. Later in the replication
+process, the RNA is removed and replaced with DNA. As mentioned previously, viruses
+that have RNA genomes (such as HIV) also form RNA/DNA hybrid during their replication process.
+Thus, the function of RNase H to specifically degrade the RNA in an RNA/DNA
+hybrid is biologically important.  
+
+We were interested in RNase HII because it specifically targets the structure
+of the hybrid duplex, and degrades the RNA independent of base sequence.
+In the fall of 1999, there was reasonable evidence that RNase HII enzymes were involved
+in DNA replication in eukaryotes.  Biochemical and genetic studies showed that RNase HII interacts
+with flap endonuclease (FEN-1), which removes RNA primers generated during DNA
+replication. In contrast to RNase H, which degrades all the RNA in an RNA/DNA hybrid,
+RNase HII has a different substrate specificity.  Biochemical experiments indicated that *in vitro*, RNase HII prefers a subtrate
+consisting of DNA+RNA in one strand, hybridized with a complementary DNA strand.
+RNase HII cleaves mostly near the DNA-RNA junction in the hybrid strand.
+Combined with genetic evidence show that RNase HII and FEN-1 were in the same pathway,
+we thought the RNase HII might be an important player in DNA replication.
+
+So there I was, a rotating graduate student in John's lab, given this RNase HII
+project that a senior graduate student in the lab had started.  When I inherited
+the project, it came with one native data set to 2.0 angstrom resolution, and
+a collaborator, who had provided the protein. 
+In order to obtain phases, 
+I wanted to do a multiwavelength anomalous dispersion (MAD) experiment, which
+required protein substituted with selenomethionines in place of the normal methionine
+residues.  My collaborator offered to make this protein, so I waited to get the shipment
+from them.  They shipped concentrated samples, flash-frozen in small aliquots,
+which is a fairly common way to store proteins for long-term storage. Unfortunately,
+when I thawed the first tube, a significant amount of precipitate formed.  SDS page analysis
+showed that it indeed was RNase HII protein. At this point I decided to take matters
+into my own hands.
+
+As I've come to find out, crystallography, like most scientific techniques, is heavily
+dependent on the quality of the sample.  It's impossible to control the quality of your
+sample if you're not making it yourself, so I asked my collaborator to send me the
+DNA over-expression plasmid, and set about to over-express and purify RNase HII myself.
+As an undergrad I had plenty of experience trying molecular cloning and failing
+miserably.  I had never done protein expression or purification, but my cloning
+failures taught me alot about the value of controls and and how to
+troubleshoot. As it turns out, my first attempt went very smoothly. This particular RNase HII
+from the archaeabacteria *Archaeoglobus fulgidus* over-expressed very well in *E. coli*.
+Since the recombinant protein is thermostable and also contained a histidine tag, purification was straight-forward.
+
+Everything was proceeding smoothly until I tried to concentrate the protein using
+a centrifugation-based filtration concentrator. As the concentration approached 20 mg/mL,
+a precipitate formed in the bottom of the concentrator (I was using a centricon concentrator,
+for those of you who know what that is). Upon closer inspection, I realized that this was no
+ordinary precipitate.  It had a slight sparkle, and reproducibly sunk to the bottom of the
+concentrator if gently disturbed.  I pipetted a few microlitres onto a coverslip and
+looked at it under the microscope.  I was shocked to see crystals (granted, they 
+were ugly crystals, but was I to complain) sitting on the coverslip. Of course,
+I made this discovery around 8 or 9 pm. These things always tend to occur when there is nobody around to share the news with.  Fortunately, [Karl-Peter Hopfner][kp],
+who was a postdoc at the time, was still around, so I grabbed him and made him look
+at my concentrator-grown crystals. He laughed and told me that the same thing had happened
+to him a few months ago when he purified *[P. furiosus Rad50][rad50]*.
+
+[kp]: http://www.lmb.uni-muenchen.de/hopfner/welcome.html
+[rad50]: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=10892749&query_hl=9&itool=pubmed_DocSum
+
+It turns out the this particular RNase HII enzyme crystallized in several different conditions
+and finding conditions that produced high quality crystals was not entirely trivial. In the
+end, I ended with conditions that were different from those used to crystallize the native
+protein. With the help of others in the lab we collected a MAD dataset at the [ALS][] and
+determined the structure. Approximately 6 months later, while I was attempting to grow crystals
+of RNase HII with metal cofactors and DNA, I realized that the DTT added to prevent oxidation
+of selenomethionine had a significant affect on the diffraction quality of the crystals.
+Omitting DTT from the sample buffer produced crystals similar to the original native crystals
+that diffracted to slightly higher resolution.
+
+[als]: http://www.als.lbl.gov/
+
+
+RNase HII has the same basic fold as RNase H and related nucleases. However, it also has an
+extra C-terminal that is unique to RNase HII enzymes.  Several conserved residues that are
+required for enzymatic function are located on a loop that extends down from the C-terminal
+domain towards the active site. Based on the structure, we proposed that RNase HII might
+recognize the spacing of adjacent phosphates in the backbone of the RNA/DNA hybrid.
+This spacing is a potentially unique feature of the hybrid, since the helical structure
+of an RNA/DNA hybrid is thought to lie somewhere between double-stranded DNA (B-form helix) and double-stranded RNA (A-form helix).
+
+It's worth noting that we actually got "scooped" on this work, since another group
+published the structure of RNase HII from *M. jannaschii* approximately one month
+before we were ready to submit our paper. Luckily, I had an additional structure showing
+the location of the metal ion necessary for catalysis, and our collaborator provided  mutational
+and biochemcial data to support our findings. I modified the manuscript to include their result and emphasize how our data expanded upon their findings. It's a good trick to keep in mind for the next time you get scooped.
+
+Overall, I learned quite a bit about each step in the process of determining a crystal structure, starting from expression, all the way through writing a paper. After this, I was "hooked" on structural biology. I tried several other projects that didn't work, and a few that did. I hope to write about those here eventually. That's all for now, thanks for reading. If you've made it this far, you might be interested in reading [the paper][chapados-rnaseh2-pdf].
+
+[chapados-rnaseh2-pdf]: /assets/2006/10/19/chapados.2001.jmb.307.541.pdf
