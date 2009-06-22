@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: ReadyNAS upgrade includes ssh access
+tags: [hack, readynas]
 mephisto_id: 77
 created_at: 2007-08-24 06:42:20 -07:00
-layout: post
 ---
 If anyone out there is actually checking this site for the latest info on readynas shell access, then know that this will probably be my last post about the topic. <del>Infrant</del> Netgear has finally released a beta version of [RAIDiator v4][raidiator4].  Highlights include:
 

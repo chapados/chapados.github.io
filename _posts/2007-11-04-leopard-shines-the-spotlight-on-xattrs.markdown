@@ -1,8 +1,9 @@
 --- 
+layout: post
 title: Leopard shines the spotlight on xattrs
+tags: [metadata, osx, spotlight, xattr]
 mephisto_id: 80
 created_at: 2007-11-04 19:35:32 -08:00
-layout: post
 ---
 When Tiger was released back in 2005, Spotlight search technology was all the rage.  Several articles appeared showing off the technology and [explaining the details][spotlight-details]. For most people, being able to easily find their files was all they cared about.  Others thought it was too slow and immediately disabled it.
 

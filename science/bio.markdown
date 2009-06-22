@@ -2,6 +2,7 @@
 title: Biosketch
 mephisto_id: 7
 created_at: 2006-09-21 06:06:23 -07:00
+published_at: 2006-07-26 06:06:23 -07:00
 layout: post
 ---
 Who is this guy? 

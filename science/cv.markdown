@@ -2,6 +2,7 @@
 title: curriculum vitae
 mephisto_id: 5
 created_at: 2006-09-21 06:03:53 -07:00
+published_at: 2006-07-26 06:03:53 -07:00
 layout: post
 ---
 ## contact ##

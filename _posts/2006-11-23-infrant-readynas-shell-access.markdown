@@ -1,5 +1,7 @@
---- 
+---
+layout: post
 title: Infrant ReadyNAS shell access
+tags: [backups, hacks, readynas]
 mephisto_id: 14
 created_at: 2006-11-08 00:27:19 -08:00
 layout: post

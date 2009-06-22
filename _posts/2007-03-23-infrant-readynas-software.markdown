@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: Infrant ReadyNAS software
+tags: [hacks, readynas]
 mephisto_id: 59
 created_at: 2007-03-23 02:37:43 -07:00
-layout: post
 ---
 The first quarter of 2007 is almost over and Infrant has still not released any patches that enable ssh access to the readynas.  I guess they were probably too busy [putting out fires][vista-issues] caused by Windows Vista.  Those poor bastards.
 

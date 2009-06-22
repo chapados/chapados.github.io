@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: You might need version control if
+tags: [science, version control, writing]
 mephisto_id: 79
 created_at: 2007-10-31 16:24:53 -07:00
-layout: post
 ---
 1. You're working on a grant or paper with collaborators and your filenames look like this (no, I'm not making this up):
 

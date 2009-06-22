@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: Work at home with your SOCKS on
+tags: [ssh, tips, unix]
 mephisto_id: 13
 created_at: 2006-10-22 03:44:30 -07:00
-layout: post
 ---
 Most scientific articles are published in journals that are not freely accessible to the general public.
 If you're in academic science, biotech or big pharma, your respective institutions pay the big bucks to the publishers so that you can access journal content over the internet. 

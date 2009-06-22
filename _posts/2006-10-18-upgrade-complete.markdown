@@ -1,5 +1,7 @@
---- 
+---
+layout: post
 title: Upgrade Complete
+tags: [mephisto, news]
 mephisto_id: 12
 created_at: 2006-10-18 04:58:21 -07:00
 layout: post

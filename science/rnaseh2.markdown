@@ -2,6 +2,7 @@
 title: The Structure of RNase HII
 mephisto_id: 9
 created_at: 2006-09-25 05:21:42 -07:00
+published_at: 2006-10-18 05:21:42 -07:00
 layout: post
 ---
 When I started my graduate work at [TSRI][] in [John Tainer][jat]'s lab, one of the first

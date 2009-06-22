@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: Infrant ReadyNAS hacks
+tags: [backups, hacks, readynas]
 mephisto_id: 16
 created_at: 2006-11-23 07:05:14 -08:00
-layout: post
 ---
 The [Infrant][] [ReadyNAS NV][] is an extremely capable network attached storage (NAS) device that packs some serious power into a tiny box. If you're in the market for a RAID storage device or perhaps even a home media server, give it a look. You'll probably be impressed.
 

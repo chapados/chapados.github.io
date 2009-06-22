@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: ReadyNAS shell access redux
+tags: [backups, hacks, readynas]
 mephisto_id: 62
 created_at: 2007-05-04 22:35:39 -07:00
-layout: post
 ---
 When I wrote the original article on how to enable [shell access to the readynas][readynas-shell-access], I was motivated by the need to solve my backup problems.  Given the [unfulfilled][1] [promises][2] from [infrant][] regarding ssh availability, I was also frustrated, and wanted to share how easy it was to do it yourself. After solving solving the immediate problem, I did not try to develop a more elegant solution. Fortunately, the web is a big place, and I managed to inspire someone else to come up with a better solution that doesn't require removing any drives. This person, whom I will call "D", has asked to remain anonymous.
 

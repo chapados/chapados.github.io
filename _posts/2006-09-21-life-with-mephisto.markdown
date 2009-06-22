@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: Life with Mephisto
+tags: [cms, mephisto, rails]
 mephisto_id: 8
 created_at: 2006-09-21 06:46:08 -07:00
-layout: post
 ---
 No, I'm not talking about the [demon][mephistopheles]. I'm not living in hell, yet. I'm talking about the hot, new [blogging cms app][mephisto] that all the [cool kids][mephisto-users] are using. I've finally upgraded this site to use some modern technology. If you're one of the ~100 people who has actually viewed this page in the past couple months, then congratulations, you're seeing something new! For the rest of you, trust me, it's better now.
 

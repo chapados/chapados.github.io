@@ -1,8 +1,9 @@
---- 
+---
+layout: post
 title: Pier Design Tutorial
+tags: [pier, seaside, smalltalk, tutorials]
 mephisto_id: 1
 created_at: 2006-09-21 05:55:49 -07:00
-layout: post
 ---
 ## Introduction ##
 [introduction]: #intro

@@ -1,12 +1,14 @@
-name: chapados.org
-subtitle: science, software and writing by Brian Chapados
+name: "chapados.org"
+subtitle: "science, software and writing by Brian Chapados"
+url: http://chapados.org
+
 destination: ./_site
 auto:        false
 lsi:         false
 server_port: 4000
 pygments:    false
 markdown:    rdiscount
-permalink:   date
+permalink:   /blog/:year/:month/:day/:title.html
 maruku:
   use_tex:    false
   use_divs:   false
