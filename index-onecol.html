@@ -1,0 +1,69 @@
+---
+layout: default
+title: Brian Chapados
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Open Source Projects</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/chapados/cocoagit/">Cocoagit:</a> An Objective-C library for accessing Git repositories.</li>
+    <li><a href="http://github.com/chapados/deltavision-spotlight/">DeltaVisionImporter:</a> Spotlight plugin for extracting metadata from DeltaVision image files</li>
+  </ul>
+  
+  <h1>Scientific Research & Papers</h1>
+  <div class="pubmed">
+  <ul class="posts">
+    <li>
+      <div class="title">
+        <a href="http://pubmed.gov/17308348">The C-terminal domain of yeast PCNA is required for physical and functional interactions with Cdc9 DNA ligase.</a>
+      </div>
+      <div class="authors">
+        Vijayakumar S, <b>Chapados BR</b>, Schmidt KH, Kolodner RD, Tainer JA, Tomkinson AE
+      </div>
+      <div class="publication">
+        <span class="journal">Nucleic Acids Res. </span>
+        <span class="year">2007</span>
+        <span class="volume">35</span>
+        <span class="pages">1624-37</span>
+      </div>
+    </li>
+    <li>
+      <div class="title">
+        <a href="http://pubmed.gov/14718165">Structural basis for FEN-1 substrate specificity and PCNA-mediated activation in DNA replication and repair.</a>
+      </div>
+      <div class="authors">
+        <b>Chapados BR</b>, Hosfield DJ, Han S, Qiu J, Yelent B, Shen B, Tainer JA
+      </div>
+      <div class="publication">
+        <span class="journal">Cell </span>
+        <span class="year">2004</span>
+        <span class="volume">116</span>
+        <span class="pages">39-50</span>
+      </div>
+    </li>
+    <li>
+      <div class="title">
+        <a href="http://pubmed.gov/11254381">Structural biochemistry of a type 2 RNase H: RNA primer recognition and removal during DNA replication.</a>
+      </div>
+      <div class="authors">
+        <b>Chapados BR</b>, Chai Q, Hosfield DJ, Qiu J, Shen B, Tainer JA
+      </div>
+      <div class="publication">
+        <span class="journal">J. Mol. Biol. </span>
+        <span class="year">2001</span>
+        <span class="volume">307</span>
+        <span class="pages">541-56</span>
+      </div>
+    </li>
+    <li><a href="/science">more articles...</a>
+  </ul>
+  </div>
+</div>
+  

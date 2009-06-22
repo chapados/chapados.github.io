@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: helvetica, arial, clean, sans-serif;
+  font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -27,11 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 150%;
-  font-family: "Times", "Times New Roman", "Georgia";
-  font-style: italic;
-  font-weight: normal;
-  color: #046B53;
   margin-bottom: 1em;
 }
 
@@ -68,7 +63,7 @@ ul.posts {
 }
 
   ul.posts li {
-    line-height: 2.5em;
+    line-height: 1.75em;
   }
 
   ul.posts span {
@@ -86,20 +81,16 @@ ul.posts {
 .site {
   font-size: 110%;
   /* text-align: justify; */
-  text-align: center;
-/*   width: 40em; */
-/*   margin: 3em auto 2em auto; */
+  text-align: left;
+  width: 40em;
+  margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
-  font-family: utopia, geogia, serif;
-  letter-spacing: -1px;
-  font-size: 300%;
   color: #a00;
   font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
   .site .title a {
@@ -109,7 +100,6 @@ ul.posts {
 
   .site .title a:hover {
     color: black;
-    text-decoration: none;
   }
 
   .site .title a.extra {
@@ -120,7 +110,6 @@ ul.posts {
 
   .site .title a.extra:hover {
     color: black;
-    text-decoration: none;
   }
 
   .site .meta {
@@ -133,12 +122,11 @@ ul.posts {
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
-    text-align: center;
   }
 
     .site .footer .contact {
-      /* float: left; */
-      /* margin-right: 3em; */
+      float: left;
+      margin-right: 3em;
     }
 
       .site .footer .contact a {
@@ -147,31 +135,13 @@ ul.posts {
 
     .site .footer .rss {
       margin-top: 1.1em;
-/*       margin-right: -.2em; */
-      /* float: right; */
+      margin-right: -.2em;
+      float: right;
     }
 
       .site .footer .rss img {
         border: 0;
       }
-
-/* info class */
-.info ul {
-  list-style-type: none;
-  display: inline;
-}
-
-.info li {
-  display: inline;
-}
-
-.info li.last:after {
-  content: "";
-}
-
-.info li:after {
-  content: " | ";
-}
 
 /******
  * pubmed articles
