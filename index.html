@@ -7,16 +7,16 @@ title: Brian Chapados
 
 <div class="block">
 <div class="column span-9 border">
-  <h1>blog</h1>
+  <h1><a class="home" href="/blog">blogger</a></h1>
   <ul class="posts">
     {% for post in site.posts limit:6 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.id }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
 
 <div class="column span-6 border">
-  <h1>hacker</h1>
+  <h1><a class="home" href="/code">hacker</a></h1>
   <ul class="posts">
     <li><a href="http://github.com/chapados/cocoagit/">Cocoagit</a></li>
     <li><a href="http://github.com/chapados/deltavision-spotlight/">DeltaVisionImporter</a></li>
@@ -28,7 +28,7 @@ title: Brian Chapados
 </div>
   
 <div class="column span-9 last">
-  <h1>scientist</h1>
+  <h1><a class="home" href="/science">scientist</a></h1>
   <ul class="posts">
     <li>
       <div class="summary">

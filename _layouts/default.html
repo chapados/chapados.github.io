@@ -9,10 +9,14 @@
    <link href="http://feeds.feedburner.com/ChapadosBlog" rel="alternate" title="Brian Chapados" type="application/atom+xml" />
 
    <!-- blueprint css -->
-   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="/css/blueprint/src/reset.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/blueprint-liquid.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/blueprint/src/typography.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/blueprint/plugins/fancy-type/fancy-type.css" type="text/css" media="screen, projection" />
+   <!--[if IE]><link rel="stylesheet" href="/css/blueprint/src/ie.css" type="text/css" media="screen, projection"><![endif]-->
 
    <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+<!--    <link rel="stylesheet" href="/css/syntax.css" type="text/css" /> -->
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
@@ -24,42 +28,61 @@
 </head>
 <body>
 
-<div class="site">
-  <div class="title">
-    <a href="/">Brian Chapados</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/articles">articles</a>
-    <a class="extra" href="/code">code</a>
-    <a class="extra" href="/science">science</a>
-  </div>
-  
-  <div id="page">
-    <div id="content">
-      {{ content }}
+  <div class="site">
+    <div class="container">
+    <div class="title">
+      <a href="/">Brian Chapados</a>
+      <a class="extra" href="/">home</a>
+      <a class="extra" href="/blog">articles</a>
+      <a class="extra" href="/code">code</a>
+      <a class="extra" href="/science">science</a>
     </div>
-  
-    <div class="footer">
-      <div class="contact">
-        <p>
-          Brian Chapados<br />
-          scientist, hacker<br />
-          brian@chapados.org
-        </p>
+    
+    <div id="page">
+      <div id="content">
+        <div class="column span-20 prepend-2 append-2">
+          {{ content }}
+        </div>
       </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/chapados/">github.com/chapados</a><br />
-          <a href="http://twitter.com/chapados/">twitter.com/chapados</a><br />
-        </p>
-      </div>
-      <div class="rss">
-        <a href="http://feeds.feedburner.com/ChapadosBlog">
-          <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
+
+      <div class="column span-24">
+        <div class="footer">
+          <div class="column span-6 prepend-3">
+            <div class="contact">
+              <p>
+                Brian Chapados<br />
+                scientist, hacker<br />
+                brian@chapados.org
+              </p>
+            </div>
+          </div>
+          <div class="column span-6">
+            <div class="contact">
+              <p>
+                <a href="http://github.com/chapados/">github.com/chapados</a><br />
+                <a href="http://twitter.com/chapados/">twitter.com/chapados</a><br />
+              </p>
+            </div>
+          </div>
+          <div class="column span-6 append-3 last">
+            <div class="rss">
+              <a href="http://feeds.feedburner.com/ChapadosBlog">
+                <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+              </a>
+            </div>
+          </div>
+            <div class="column span-24">
+              contents copyright &#169;&#160;2006&#8211;2009 Brian Chapados,
+              licensed for use under
+              <a href="http://creativecommons.org/licenses/by-sa/3.0/"
+                 rel="license"><abbr title="Creative Commons">CC</abbr>&#160;
+              <abbr title="Attribution">BY</abbr>-<abbr title="Share-Alike">SA</abbr>&#160;3.0</a>
+            </div>
+        </div>
       </div>
     </div>
+    </div>
   </div>
-</div>
 
 <!-- 
 <a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>

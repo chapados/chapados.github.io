@@ -1,45 +1,30 @@
 ---
 layout: default
 ---
+
 <div class="hentry" id="{{ page.id }}">
-  <h2 class="entry-title">
-    {{ page.title }}
-  </h2>
+  <h2 class="entry-title">{{ page.title }}</h2>
   {% if page.author %}
   <div class="vcard">
-    Posted by <span class="fn">{{ page.author }}</span>
+    by <span class="fn">{{ page.author }}</span>
   </div>
   {% endif %}
-  <!-- <br class="clear" /> -->
+
   <div class="entry-content">
     {{ content }}
   </div>
-  <ul class="meta">
-    {% if page.categories != empty %}
-      <!-- TODO: correct link to categories -->
-      <li>Categories:{% for t in page.categories %} <a href="/categories/{{ t }}">{{ t }}</a>{% endfor %}</li>
-    {% endif %}
-    {% if page.topics != empty %}
-      <!-- TODO: correct link to topics -->
-      <li>Topics:{% for t in page.topics %} <a href="/topics/{{ t }}">{{ t }}</a>{% endfor %}</li>
-    {% endif %}
-    <!--
-    {% if page.tags != empty %}
-      <li>Tags: {% for t in page.tags %}<a href="/tags/{{ t }}">{{ t }}</a>{% if forloop.rindex0 > 0 %} / {% endif %}{% endfor %}</li>
-    {% endif %}
--->
-    <p class="posted">posted <abbr class="published" title="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</abbr> <a href="{{ site.url }}{{ page.url }}" rel="bookmark">#</a></p>
-  </ul>
-<!--
-  <ul class="posts">
-    {% assign p = page.previous %}{% if p %}
-    <li><span>Previous: {{ p.date | date_to_string }}</span> &raquo; <a href="{{ p.url }}">{{ p.title }}</a></li>
-    {% endif %}
-    {% assign p = page.next %}{% if p %}
-    <li><span>    Next: {{ p.date | date_to_string }}</span> &raquo; <a href="{{ p.url }}">{{ p.title }}</a></li>
-    {% endif %}
-  </ul>
--->
+  <div class="meta"
+    <p class="posted">published <abbr class="published" title="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</abbr> <a href="{{ site.url }}{{ page.id }}" rel="bookmark">#</a></p>
+  </div>
+  {% if page.tags != empty %}
+  <dl class="entry-meta">
+      <dt>Tags:</dt>
+      <dd>
+        {% for t in page.tags %}<a href="/tags/{{ t }}" rel="tag">{{ t }}</a>
+        {% endfor %}
+      </dd>
+  </dl>
+  {% endif %}
 </div>
 
 
@@ -48,7 +33,7 @@ layout: default
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.id }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

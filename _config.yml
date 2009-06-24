@@ -8,7 +8,7 @@ lsi:         false
 server_port: 4000
 pygments:    false
 markdown:    rdiscount
-permalink:   /blog/:year/:month/:day/:title.html
+permalink:   /:year/:month/:day/:title.html
 maruku:
   use_tex:    false
   use_divs:   false

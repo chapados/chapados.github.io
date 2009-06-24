@@ -72,11 +72,27 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: #666;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-size: 90%;
   }
 
+#home a {
+  text-decoration: none;
+}
+
+#home a:hover {
+  text-decoration: underline;
+}
+
+#home a:visited {
+  color: #a0a;
+}
+
+#home a.home {
+  color: #046B53;
+  text-decoration: none;
+}
 /*****************************************************************************/
 /*
 /* Site
@@ -84,15 +100,26 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
+  font-size: 120%;
   /* text-align: justify; */
-  text-align: center;
-/*   width: 40em; */
+ /*   width: 40em; */
 /*   margin: 3em auto 2em auto; */
   line-height: 1.5em;
 }
 
+#home .site {
+  text-align:center;
+}
+
 .title {
+  font-size: 120%;
+  color: #a00;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#home .title {
   font-family: utopia, geogia, serif;
   letter-spacing: -1px;
   font-size: 300%;
@@ -256,12 +283,18 @@ ul.posts {
 /*
 /*****************************************************************************/
 
+#content {
+  font-size: 110%;
+  text-align: left;
+}
+
 #content .hentry {
 
 }
 
 #content .hentry h2.entry-title {
-  font-size: 120%;
+  font-size: 200%;
+  margin-top: 0.5em;
 }
 
 
@@ -291,6 +324,10 @@ ul.posts {
 }
 
 /* standard */
+
+#content .hentry .entry-content {
+  font-size: 100%;
+}
 
 #content .hentry .entry-content h1{
   margin: 0 0 0 0;
@@ -354,6 +391,15 @@ ul.posts {
 
 #content .hentry .meta p.posted {
   text-align: right;
+}
+
+#content .hentry dl.entry-meta dt {
+  float: left;
+  width: 3.5em;
+}
+
+#content .hentry dl.entry-meta dd {
+  margin-left: 1em;
 }
 
 /*
