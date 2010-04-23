@@ -9,8 +9,8 @@ layout: resume
 Brian R. Chapados
 =================
 
-http://chapados.org
-brian@chapados.org
+[http://chapados.org]()  
+[brian@chapados.org](mailto:brian@chapados.org)
 
 ## education & training ##
 
