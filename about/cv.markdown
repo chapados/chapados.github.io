@@ -3,7 +3,7 @@ title: curriculum vitae
 mephisto_id: 5
 created_at: 2006-09-21 06:03:53 -07:00
 published_at: 2006-07-26 06:03:53 -07:00
-layout: default
+layout: resume
 ---
 ## contact ##
 
@@ -44,6 +44,18 @@ layout: default
   Niagara Wheatfield High School. Sanborn, New York. Regents Diploma with honors.
 
 ## publications ##
+
+- Zeitlin SG, Baker NM, **Chapados BR**, Soutoglou E, Wang JY, Berns MW, Cleveland DW. 2009.
+  Double-strand DNA breaks recruit the centromeric histone CENP-A.
+  _Proc. Natl. Acad. Sci. USA._ __106__: 15762 - 15767.
+
+- Syson K, Tomlinson B, **Chapados BR**, Sayers JR, Tainer JA, Williams NH, Grasby JA. 2008.
+  Three metal ions participate in the reaction catalyzed by T5 flap endonuclease.
+  _J. Biol. Chem._ __283__: 28741 - 28746.
+
+- Williams R, Sengerová B, Osborne S, Syson K, Ault S, Kilgour A, **Chapados BR**, Tainer JA, Sayers JR, Grasby JA. 2007.
+  Comparison of the catalytic parameters and reaction specificities of a phage and an archaeal flap endonuclease.
+  _J. Mol. Biol._ __371__: 34 - 38.
 
 - Vijayakumar S, **Chapados BR**, Schmidt KH, Kolodner RD, Tainer JA, Tomkinson AE. 2007.
   The C-terminal domain of yeast PCNA is required for physical and functional interactions with Cdc9 DNA ligase.
