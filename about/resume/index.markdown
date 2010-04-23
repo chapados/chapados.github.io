@@ -6,10 +6,7 @@ Brian Chapados
 ==============
 [Objective-C (iPhone/iPad) & Ruby Developer](class:description)
 
-[http://chapados.org]()  
 [brian@chapados.org](mailto:brian@chapados.org)  
-527 Westbourne Street, La Jolla, CA 92037  
-[858.598.4225](tel:18589229339) (google voice)
 
 - 4 years programming in Objective-C and Ruby, including 2 years of iPhone development
 - Active contributor to open source Objective-C and Ruby projects since 2007
