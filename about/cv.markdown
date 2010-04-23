@@ -5,9 +5,12 @@ created_at: 2006-09-21 06:03:53 -07:00
 published_at: 2006-07-26 06:03:53 -07:00
 layout: resume
 ---
-## contact ##
 
-- Brian R. Chapados <brian@chapados.org>
+Brian R. Chapados
+=================
+
+http://chapados.org
+brian@chapados.org
 
 ## education & training ##
 
