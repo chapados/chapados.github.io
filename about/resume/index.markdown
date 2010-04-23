@@ -27,7 +27,7 @@ Work Experience
 ### [Wildcard Network Inc.][wildcard] (Independent Developer, 2009-2010)
 
 A startup focusing on mobile gift cards.  
-[http://tinyurl.com/wildcard-appstore]()
+[http://tinyurl.com/wildcard-appstore](http://tinyurl.com/wildcard-appstore)
 
 - Developed Wildcard iPhone app with a team of 6 including a designer, server engineers and business executives.
 - Acted as the technical lead for the project, integrating development and business objectives.
@@ -43,7 +43,7 @@ Open Source Contributions
 ### Cocoagit (co-maintainer 2008-2009)
 
 Objective-C library for accessing git version control repositories from OSX and iPhone applications.  
-[http://github.com/chapados/cocoagit]()
+[http://github.com/chapados/cocoagit](http://github.com/chapados/cocoagit)
 
 - Implemented parsers for raw git objects, and binary PACK format files and indexes.
 - Developed API for reading/sorting/walking through the commit history of a repository.
@@ -56,7 +56,7 @@ Objective-C library for accessing git version control repositories from OSX and 
 Three20 is a collection of iPhone UI classes and general utilities.
 
 - Fixed Three20 View Controller classes to be compatible with NIB files for use with Interface Builder.  
-[http://github.com/chapados/three20/tree/nib-support]()
+[http://github.com/chapados/three20/tree/nib-support](http://github.com/chapados/three20/tree/nib-support)
 
 
 ### Grit (contributor 2009)
@@ -64,7 +64,7 @@ Three20 is a collection of iPhone UI classes and general utilities.
 Grit is a Ruby library for extracting information from a git repository used by GitHub.
 
 - Made Grit compatible with Ruby 1.9, while still maintaining backwards compatibility with Ruby 1.8.6., providing an ~10-20% performance increase.  
-[http://github.com/chapados/grit/commits/ruby19]()
+[http://github.com/chapados/grit/commits/ruby19](http://github.com/chapados/grit/commits/ruby19)
 
 
 ### Nu (contributor 2007-2008)
@@ -91,7 +91,7 @@ Mac OSX application for graphing, visualizing and analyzing results from high-co
 ### DeltaVisionImporter (2009)
 
 A Spotlight plugin to search comment fields of proprietary DeltaVision (TM) microscopy image files.  
-[http://github.com/chapados/deltavision-spotlight]()
+[http://github.com/chapados/deltavision-spotlight](http://github.com/chapados/deltavision-spotlight)
 
 - Reverse engineered image header to extract comment data in a byte-order independent manner.
 
