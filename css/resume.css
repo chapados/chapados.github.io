@@ -1,0 +1,40 @@
+#resume {
+    font-size: 100%;
+    color: #000;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+#resume #format-menu {
+    float: right;
+    clear: both;
+}
+
+#resume #format-menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#resume h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-style: normal;
+    font-family: Helvetica,Arial,Sans-serif;
+}
+
+#resume h2 {
+    font-size: 150%;
+    border-bottom: 1px solid #ddd;
+}
+
+#resume h3 {
+    font-size: 125%;
+}
+
+#resume h1 {
+    font-size: 200%;
+    margin: 0;
+}
+
+#resume span.description {
+    font-family: Helvetica,Arial,Sans-serif;
+    font-size: 110%;
+}
