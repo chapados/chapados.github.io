@@ -2,6 +2,17 @@
 jQuery(function($){ 
   alert('$ = '+ $); 
 });*/
+function include(filename)
+{
+	var head = document.getElementsByTagName('head')[0];
+	
+	script = document.createElement('script');
+	script.src = filename;
+	script.type = 'text/javascript';
+	
+	head.appendChild(script)
+}
+include('js/json2.js');
 
 // requires jQuery
 var pubmed = {
@@ -20,7 +31,9 @@ var pubmed = {
   },
     
   response: function(data){
+
     var ul = $("#pubmed-results").empty().append($("<ul/>")).find("ul");
+    
     console.log(data);
     
     var parser = {
@@ -133,10 +146,20 @@ var pubmed = {
           .append(ref.pages())));
       
     };
-    
+
+    var toJSON =  function (pub, parser) {
+      var data = { "title": parser.title(pub),
+               "authors": parser.authorList(pub),
+               "journal": parser.journal(pub),
+               "volume": parser.volume(pub),
+               "pages": parser.pages(pub),
+               "year": parser.pages(pub) };
+      return data;
+    };
     
     for (var i = 0, item; item = data.value.items[i++];)
       if (item.MedlineCitation)
+//         JSON.stringify(toJSON(item, parser));
         format(item, parser);
   }
 };

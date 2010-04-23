@@ -1,0 +1,21 @@
+<div class="pubmed">
+  <ul><% pubs.each do |pub| %>
+    <li>
+      <div class="title">
+        <a href="http://pubmed.gov/<%= pub.pmid %>"><%= pub.title %></a>
+      </div>
+      <ul class="authors"><% pub.authors.each_with_index do |author, i|
+        li_class = "name" 
+        li_class += " first" if i == 0
+        li_class += " me" if author =~ /Chapados/ %>
+        <li class="<%= li_class %>"><%= author %></li><% end %>
+      </ul>
+      <div class="publication">
+        <span class="year"><%= pub.year %></span>
+        <span class="journal"><%= pub.journal %></span>
+        <span class="volume"><%= pub.volume %></span>
+        <span class="pages"><%= pub.pages %></span>
+      </div>
+    </li><% end %>
+  </ul
+</div>

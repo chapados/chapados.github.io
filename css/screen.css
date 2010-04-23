@@ -39,6 +39,12 @@ p {
   margin: 1em 0;
 }
 
+/* over-ride blueprint fancy-type defaults */
+p + p {
+ text-indent:0em;
+ margin-top:0em;
+}
+
 a {
   color: #00a;
 }
@@ -215,14 +221,14 @@ ul.posts {
 }
 
 .pubmed .title {
-  margin-bottom: 0em;
+  margin-bottom: 0.3em;
 }
 
 
 .pubmed .title a {
   color: #00a;
   margin-bottom: 0em;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: normal;
   /* font-weight: bold; */
 }
@@ -230,13 +236,39 @@ ul.posts {
 .pubmed .authors,
 .pubmed .publication
 {
-  margin-left: 1em;
+  margin-left: 0.5em;
+}
+
+.pubmed ul.authors {
+  display: inline;
+}
+
+.pubmed ul.authors li {
+  display: inline;
+  color: #666;
+}
+
+.pubmed ul.authors li.me {
+  font-weight: bold;
+  color: #000;
+}
+
+.pubmed ul.authors li.first:before {
+  content: "";
+}
+
+.pubmed ul.authors li:before {
+  content: ", ";
 }
 
 .pubmed ul span {
   font-family: helvetica, arial, clean, sans-serif;
   color: #000;
   font-size: 100%;
+}
+
+.pubmed .publication span {
+  color: #007722;
 }
 
 .pubmed span.year:before {
@@ -252,13 +284,23 @@ ul.posts {
 }
 
 .pubmed span.volume {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .pubmed span.volume:after {
   content: ": ";
 }
 
+.pubmed ul.linkout {
+  margin-top: 0.3em;
+  margin-left: 0.5em;
+}
+
+.pubmed ul.linkout li {
+  padding-bottom: 0;
+  padding-right: 0.5em;
+  display: inline;
+}
 
 /*
 ul.posts {
@@ -319,7 +361,8 @@ ul.posts {
 
 #content .hentry .fn a,
 #content .hentry .fn a:hover {
-  color: #aaa; background: transparent;
+  color: #aaa;
+  background: transparent;
   text-decoration: none;
 }
 

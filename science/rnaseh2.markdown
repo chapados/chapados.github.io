@@ -1,9 +1,9 @@
 --- 
 title: The Structure of RNase HII
+layout: default
 mephisto_id: 9
 created_at: 2006-09-25 05:21:42 -07:00
 published_at: 2006-10-18 05:21:42 -07:00
-layout: post
 ---
 When I started my graduate work at [TSRI][] in [John Tainer][jat]'s lab, one of the first
 projects I worked on involved determining the structure of an RNase HII
@@ -81,7 +81,7 @@ at my concentrator-grown crystals. He laughed and told me that the same thing ha
 to him a few months ago when he purified *[P. furiosus Rad50][rad50]*.
 
 [kp]: http://www.lmb.uni-muenchen.de/hopfner/welcome.html
-[rad50]: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=10892749&query_hl=9&itool=pubmed_DocSum
+[rad50]: http://pubmed.gov/10892749
 
 It turns out the this particular RNase HII enzyme crystallized in several different conditions
 and finding conditions that produced high quality crystals was not entirely trivial. In the
