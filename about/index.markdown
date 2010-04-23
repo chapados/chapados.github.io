@@ -5,10 +5,10 @@ layout: default
 
 I'm a geek who experiments with technology and molecules. In general, I like
 to figure out how stuff works and I spend most of my time either making things
-in a lab, or building things inside a computer. When I'm not doing those
+in a lab, or teaching computers new tricks. When I'm not doing either of those two
 things I play hockey, or go sailing.
 
-I live in San Diego, where it's always sunny and you don't need to own long pants.
+I currently live in San Diego, where it's always sunny and you don't need to own long pants.
 
 I have written an [iPhone app][wildcard], built some [tiny][hotworm] [websites][sdbhl],
 and contributed to open source projects on [github][].
