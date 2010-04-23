@@ -16,6 +16,7 @@ Work Experience
 ---------------
 
 ### Wildcard Network Inc. (Independent Developer, 2009-2010)
+
 A startup focusing on mobile gift cards.  
 http://tinyurl.com/wildcard-appstore
 
@@ -49,13 +50,17 @@ http://github.com/chapados/three20/tree/nib-support
 
 
 ### Grit (contributor 2009)
+
 Grit is a Ruby library for extracting information from a git repository used by GitHub.
+
 - Made Grit compatible with Ruby 1.9, while still maintaining backwards compatibility with Ruby 1.8.6., providing an ~10-20% performance increase.  
 http://github.com/chapados/grit/commits/ruby19
 
 
 ### Nu (contributor 2007-2008)
+
 Nu is a Lisp-ish programming language implemented on top of the Objective-C runtime.
+
 - Developed methods for sorting lists and arrays using Nu blocks (closures).
 - Added new mathematical operators for exponentiation logarithms and rounding.
 
@@ -66,6 +71,7 @@ Scientific Software
 As a Postdoctoral Fellow at Lawrence Berkeley National Labs, I developed software as part of my research projects in biophysics, genomics and cell biology.
 
 ### CellFinder (2007-2009)
+
 Mac OSX application for graphing, visualizing and analyzing results from high-content imaging experiments.
 
 - Implemented methods to import data into binary arrays for efficient processing of moderate-large datasets.
@@ -79,6 +85,7 @@ http://github.com/chapados/deltavision-spotlight
 - Reverse engineered image header to extract comment data in a byte-order independent manner.
 
 ### Scrimp (SCRiptable Image Processor; 2007)
+
 A specialized build system for format conversion and analysis of fluorescence microscopy images.
 
 - Implemented JRuby and rake tasks for converting between image formats.
