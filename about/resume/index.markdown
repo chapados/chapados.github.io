@@ -1,6 +1,13 @@
 ---
 layout: resume
 ---
+<div id="format-menu">
+  <ul>
+    <li><a href="brian-chapados-resume.txt">text</a></li>
+    <li><a href="brian-chapados-resume.pdf">pdf</a></li>
+    <li><a href="brian-chapados-resume.doc">doc</a></li>
+  </ul>
+</div>
 
 Brian Chapados
 ==============
