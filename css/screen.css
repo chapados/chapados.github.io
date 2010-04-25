@@ -326,8 +326,43 @@ ul.posts {
 /*****************************************************************************/
 
 #content {
-  font-size: 110%;
+  font-size: 100%;
   text-align: left;
+}
+
+/* content headings */
+
+#content h1 { 
+  font-size: 200%;
+  margin: 0 0 0.3em;  
+}
+
+#content h2 { 
+  font-size: 165%;
+  margin: 0 0 0.3em;  
+}
+
+#content h3 { 
+  font-size: 150%;
+  margin: 1.2em 0 0.3em;  
+}
+
+#content h4 { 
+  font-size: 145%;
+  margin: 1.2em 0 0.3em;  
+  border-bottom: 1px dotted #bbb;
+}
+
+#content h5 {
+  font-size: 130%;
+  margin: 1.2em 0 0.3em;  
+  border-bottom: 1px dotted #aaa;
+}
+
+#content h6 {
+  font-size: 115%;
+  margin: 1.2em 0 0.3em;  
+  border-bottom: 1px dotted #999;
 }
 
 #content .hentry {
@@ -337,6 +372,7 @@ ul.posts {
 #content .hentry h2.entry-title {
   font-size: 200%;
   margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 
@@ -373,7 +409,7 @@ ul.posts {
 }
 
 #content .hentry .entry-content h1{
-  margin: 0 0 0 0;
+  margin: 0.3em 0 0.3em;  
 }
 
 #content .hentry .entry-content pre {
