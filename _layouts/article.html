@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="hentry" id="{{ page.id }}">
+  <h2 class="entry-title">{{ page.title }}</h2>
+  <div class="entry-content">
+    {{ content }}
+  </div>
+  <div class="meta"
+    <p class="posted">published <abbr class="published" title="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</abbr> <a href="{{ site.url }}{{ page.id }}" rel="bookmark">#</a></p>
+  </div>
+  {% if page.tags != empty %}
+  <dl class="entry-meta">
+      <dt>Tags:</dt>
+      <dd>
+        {% for t in page.tags %}<a href="/tags/{{ t }}" rel="tag">{{ t }}</a>
+        {% endfor %}
+      </dd>
+  </dl>
+  {% endif %}
+</div>
