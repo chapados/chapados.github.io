@@ -3,10 +3,9 @@ subtitle: "science, software and writing by Brian Chapados"
 url: http://chapados.org
 
 destination: ./_site
-auto:        false
 lsi:         false
-server_port: 4000
-pygments:    false
+port:        4000
+highlighter: null
 markdown:    rdiscount
 permalink:   /:year/:month/:day/:title.html
 maruku:
