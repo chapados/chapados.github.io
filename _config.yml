@@ -6,7 +6,7 @@ destination: ./_site
 lsi:         false
 port:        4000
 highlighter: null
-markdown:    rdiscount
+markdown:    kramdown
 permalink:   /:year/:month/:day/:title.html
 maruku:
   use_tex:    false
